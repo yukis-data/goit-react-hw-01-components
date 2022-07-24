@@ -1,0 +1,24 @@
+.transactions {
+  width: 100%;
+  text-align: center;
+}
+
+.transactions th {
+  padding: 10px;
+  background-color: #2c9c9c;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.transactions td {
+  padding: 10px;
+}
+
+.transactions tr:nth-child(even) {
+  background: #eeecec;
+}
+
+.transactions tr:nth-child(odd) {
+  background: #fff;
+}
