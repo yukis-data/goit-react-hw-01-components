@@ -1,4 +1,4 @@
-import getRandomColor from '../getRandomColor'
+import getRandomColor from '../../utils/getRandomColor'
 import css from '../StatisticsData/StatisticsData.module.css';
 
 export const Item = ({ label, percentage }) => {
